@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px color white ;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+
+body{
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.header{
+   border: 2px solid white;
+    background-color: black;
+   height: 125px;
+
+}
+.body{
+    background-color: grey;
+
+
+    
+}
+.navbar{
+    
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+
+.inline li{
+   
+    border: 1px solid white;
+    padding: 10px;
+    height: 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.logo{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    height: 100px;
+
+}
+
+.main  {
+    display: inline-block;
+    border: 4px black dashed;
+    width: 400px;
+    height: 895px;
+    margin: 100px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    position: relative;
+    
+}
+.maincontact{
+    display: inline-block;
+    border: 4px black dashed;
+    width: 950px;
+    height: 500px;
+    margin: 100px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+
+
+}
+.mainservices{
+    display: inline-block;
+    border: 4px black dashed;
+    width: 950px;
+    height: 250px;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.mainindex{
+    display: inline-block;
+    border: 4px black dashed;
+    width: 950px;
+    height: 1125px;
+    margin: 50px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.table{
+    display: inline-block;
+    
+}
+
+.img {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    left: 450px;
+    bottom: 870px;
+}
+
+    
+   
+ 
+    
+
+.network{
+    width: auto;
+    max-height: 100%;
+   
+
+}
+
+
+
+.footer{
+    text-align: center ;
+    
+}
+
+.cat{
+    height: 40px;
+    position: relative;
+}
+
+.iframe{
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+    
+    
+}
+
+.row{
+    
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.colum img{
+    width: 100%;
+    margin-top: 5px;
+}
+.colum{
+    flex: 25%;
+    padding: 5px;
+}
+
+@media (max-width:740px) {
+    .navbar{
+    flex-direction: column;}
+
+
+
+}
+
+
